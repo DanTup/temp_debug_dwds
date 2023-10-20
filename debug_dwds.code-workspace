@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../../Google/flutter/packages/flutter_tools"
+		}
+	],
+	"settings": {
+		"dart.debugExternalPackageLibraries": true,
+		"dart.debugSdkLibraries": true
+	}
+}

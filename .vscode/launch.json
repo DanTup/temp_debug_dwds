@@ -1,0 +1,20 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Run Project",
+			"request": "launch",
+			"type": "dart",
+			"customTool": "C:\\Dev\\Test Projects\\debug_dwds\\tool\\flutter_debug.bat",
+			"program": "lib/main.dart",
+			"cwd": "C:\\Dev\\Test Projects\\debug_dwds",
+		},
+		{
+			"name": "Attach Debugger to flutter_tools",
+			"type": "dart",
+			"request": "attach",
+			"vmServiceUri": "ws://127.0.0.1:8124/ws",
+			"cwd": "C:\\Dev\\Google\\flutter\\packages\\flutter_tools",
+		}
+	]
+}
